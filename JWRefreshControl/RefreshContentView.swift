@@ -89,7 +89,7 @@ open class DefaultRefreshHeaderContentView: UIView {
         statusLabel.textAlignment = .center
         statusLabel.font = UIFont.systemFont(ofSize: 12.0)
         statusLabel.autoresizingMask = [.flexibleTopMargin, .flexibleWidth]
-        addSubview(statusLabel)
+//        addSubview(statusLabel)
         
         let tapGesture = UITapGestureRecognizer(target: self, action: #selector(didTapContentView(sender:)))
         addGestureRecognizer(tapGesture)
@@ -221,7 +221,7 @@ open class DefaultRefreshFooterContentView : UIView {
         statusLabel.textAlignment = .center
         statusLabel.font = UIFont.systemFont(ofSize: 12.0)
         statusLabel.autoresizingMask = .flexibleWidth
-        addSubview(statusLabel)
+//        addSubview(statusLabel)
         
         let tapGesture = UITapGestureRecognizer(target: self, action: #selector(didTapContentView(sender:)))
         addGestureRecognizer(tapGesture)
